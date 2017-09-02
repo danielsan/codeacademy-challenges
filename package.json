@@ -1,15 +1,16 @@
 {
   "name": "codeacademy-challenges",
   "version": "1.0.0",
-  "description": "",
+  "description": "My solutions for the fun code academy challenges",
   "main": "index.js",
   "scripts": {
+    "codecov": "istanbul cover _mocha --reporter lconvonly -- -R spec $(ls test/*/*.test.js) && codecov -t $CODECOV_TOKEN",
     "cover": "istanbul cover _mocha -- $(ls test/*/*.test.js)",
     "test": "mocha $(ls test/*/*.test.js)"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["codeacademy", "challenges", "nodejs"],
+  "author": "Daniel Santana <github@danielsantana.net>",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "istanbul": "^1.1.0-alpha.1",
