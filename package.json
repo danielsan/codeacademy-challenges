@@ -1,0 +1,18 @@
+{
+  "name": "codeacademy-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cover": "istanbul cover _mocha -- $(ls test/*/*.test.js)",
+    "test": "mocha $(ls test/*/*.test.js)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.5.0"
+  }
+}
