@@ -4,7 +4,7 @@
   "description": "My solutions for the fun code academy challenges",
   "main": "index.js",
   "scripts": {
-    "codecov": "istanbul cover _mocha --reporter lconvonly -- -R spec $(ls test/*/*.test.js) && codecov -t $CODECOV_TOKEN",
+    "codecov": "istanbul cover _mocha -- -R spec $(ls test/*/*.test.js) && codecov -t $CODECOV_TOKEN",
     "cover": "istanbul cover _mocha -- $(ls test/*/*.test.js)",
     "test": "mocha $(ls test/*/*.test.js)"
   },
