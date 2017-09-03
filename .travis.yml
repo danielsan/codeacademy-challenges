@@ -1,9 +1,11 @@
 language: node
 cache:
   codecov: true
+  istanbul: true
   directories:
     - "node_modules"
 before_script:
-  - npm install -g codecov
+  - npm install -g codecov istanbul@next
+  - npm install
 script:
-  - npm run cover
+  - npm run codecov
