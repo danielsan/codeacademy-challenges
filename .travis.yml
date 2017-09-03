@@ -1,0 +1,9 @@
+language: node
+cache:
+  codecov: true
+  directories:
+    - "node_modules"
+before_script:
+  - npm install -g codecov
+script:
+  - npm run cover
