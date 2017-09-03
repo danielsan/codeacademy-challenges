@@ -34,6 +34,7 @@ rules:
   no-mixed-operators: off
   import/no-dynamic-require: off
   no-return-assign: off
+  no-bitwise: off
   complexity:
     - error
     - 9

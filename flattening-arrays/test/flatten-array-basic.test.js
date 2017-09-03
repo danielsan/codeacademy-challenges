@@ -2,7 +2,7 @@
 
 const {expect} = require('chai');
 
-describe('flattenArrayN', () => {
+describe('flattenArray', () => {
   const {flattenArray} = require('../flatten-array-basic');
 
   context('when receiving a 2D array', () => {
