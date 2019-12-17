@@ -8,12 +8,16 @@
     "cover": "istanbul cover _mocha -- $(ls test/*/*.test.js)",
     "test": "mocha $(ls test/*/*.test.js)"
   },
-  "keywords": ["codeacademy", "challenges", "nodejs"],
+  "keywords": [
+    "codeacademy",
+    "challenges",
+    "nodejs"
+  ],
   "author": "Daniel Santana <github@danielsantana.net>",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^3.5.0"
+    "mocha": "^6.2.2"
   }
 }
